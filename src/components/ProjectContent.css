@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #2C4156;
+    margin: 0;
+    padding: 0;
+  }
+  .main-header {
+    background-color: #2C4156;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  .main-header {
+    margin-top: calc(40px + 1rem);
+  }  
+  .nav-header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .nav-header img {
+    height: 50px;
+    transition: all 0.3s ease;
+  }
+  .nav-header.scrolled img {
+    height: 40px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  .nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white; /* ou a cor de fundo desejada */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  .nav-header.scrolled {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }  
+  .nav-links a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #39586D;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    transition: color 0.2s ease;
+  }
+  .nav-links a:hover {
+    color: #2C4156;
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+  section {
+    padding: 2rem 4rem;
+  }
+  h1 {
+    color: #D2D7DB;
+  }
+  h2, h3 {
+    color: #39586D;
+  }
+  article {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 900px;
+  }
+  footer {
+    background-color: #D2D7DB;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
