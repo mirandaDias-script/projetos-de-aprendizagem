@@ -8,7 +8,7 @@ const timerDisplay = document.querySelector(".time-duration");
 const resultContainer = document.querySelector(".result-container");
 
 //Variáveis de estado
-const QUIZ_TIME_LIMIT = 20;
+const QUIZ_TIME_LIMIT = 60;
 let correntTime = QUIZ_TIME_LIMIT;
 let timer = null;
 let quizCategory = "Javascript";
